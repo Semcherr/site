@@ -1,0 +1,250 @@
+header{
+    background-color: yellow;
+    margin: 0px;
+    padding: 15px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.text{
+
+
+    text-align: center;
+    font-weight: bold;
+}
+.zero{
+    margin: 0px;
+    padding: 0px;
+}
+.money{
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+}
+.why{
+    background-color: red;
+    color: white;
+    padding: 3px;
+}
+.pr{
+    display: flex;
+    justify-content:space-between ;
+    max-width:70% ;
+    /* position: absolute; */
+    /* left:50% ;
+    transform: translateX(-50%); */
+    margin: 0 auto;
+
+}
+.T-shirt{
+
+    margin: 40px;
+    text-align: center;
+}
+.button{
+    background-color: red;
+    border-radius: 10px;
+    font-size: 20px;
+    color: aliceblue;
+    cursor: pointer;
+    padding: 5px;
+    border-width: 0;
+    
+}
+.button1{
+    background-color: rgb(47, 85, 100);
+    border-radius: 30px;
+    font-size: 23px;
+    color: rgb(145, 68, 68);
+    cursor: pointer;
+    padding: 7px;
+    border-width: 1px;
+    border-color: coral;
+    
+}
+.button2{
+    background-color: rgb(159, 191, 204);
+    border-radius: 30px;
+    font-size: 23px;
+    color: rgb(243, 75, 75);
+    cursor: pointer;
+    padding: 4px;
+    border-width: 1px;
+    border-color: coral;
+    
+}
+.g{
+    background-color: rgb(196, 196, 196);
+    text-align: center;
+    margin: 40px 0;
+    padding: 1px;
+    font-size: larger;
+}
+.lol{
+    background-color: red;
+    display: flex;
+    justify-content:center;
+    
+    max-width: 100%;
+    max-height: 120px;
+    line-height: 3px;
+    color: white;
+
+}
+.lol h3{
+    color: yellow
+}
+.lool{
+    display: flex;
+    
+    justify-content: center;
+}
+.lool div{
+    margin:0 5% 0 5%;
+}
+.form{
+    margin-top: 50px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+.form1 {
+    text-align: left;
+    
+}
+.form p{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.form1 input{
+    width: 100%;
+    background-color: rgb(201, 200, 200);
+    border: 0px;
+    margin: 3px 0  20px 0 ;
+    box-shadow: -2px 5px 15px 2px black;
+    padding: 10px;
+    border-radius: 4px;
+}
+.form1 label{
+    font-weight: bolder;
+}
+.form1 hr{
+    box-shadow: 5px 5px 10px 5px gray;
+    border: 0;
+    margin-right: -8px ;
+
+}
+.form1 button{
+    background-color: green;
+    color: aliceblue;
+    justify-content: center;
+    margin: 20px 0 0 60px;
+    padding: 5px;
+    font-size: larger;
+}
+.tp{
+    position: fixed ;
+    display: 2;
+    padding: 0;
+    margin-top: 550px;
+    display: flex;
+
+    left: 95%;
+}
+.gift{
+    position: fixed ;
+    display: 2;
+    padding: 0;
+    margin-top:0px;
+    display: flex;
+    opacity: 0%;
+    left: 1%;
+    cursor: pointer;
+}
+.gift:hover{
+    opacity: 100%;
+}
+.text111{
+    color: black;
+}
+.r{
+    font-size:25px;
+    background-color: chartreuse;
+    left: 89.2%;
+    padding:15px 25px 18px 25px;
+
+    position: relative;
+}
+.r:hover{
+    background-color: red;
+    color: rgb(253, 155, 155);
+    cursor: pointer;
+    transition-duration:1s ;
+}
+.r1{
+    font-size:25px;
+    background-color: chartreuse;
+    left: 77.77%;
+    padding:15px 25px 18px 25px;
+
+    position: relative;
+}
+.r1:hover{
+    background-color: red;
+    color: rgb(253, 155, 155);
+    cursor: pointer;
+    transition-duration:1s ;
+}
+.monal-b{
+
+    width: 1800px;
+    background-color: aliceblue;
+    margin: auto;
+    position: relative;
+    
+    top: 45%;
+    animation-name:aboba ;
+    animation-duration: 2s;
+}
+.monal-sec{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 999999;
+    
+    background-color: rgba(0, 0, 0, 0.418);
+    top: 0;
+    left: 0;
+    transition-duration:2s ;
+}
+.monal-sec-0{
+    display: none;
+}
+.gr{
+    background-color: chartreuse;
+    padding: 15px 0px 17px 6px;
+    font-weight: bold;
+    font-size: large;
+    
+}
+.wt{
+    background-color: aliceblue;
+    padding: 20px 0px 20px 6px;
+    font-weight: bolder;
+    font-size: large;
+}
+@keyframes aboba {
+    from{
+        left:-2000px;
+        background-color: rgba(255, 255, 255, 0);
+        opacity: 0;
+    }
+    to{
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.418);
+        opacity: 1;
+    }
+    
+}
